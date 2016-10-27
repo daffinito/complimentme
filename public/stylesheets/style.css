@@ -1,0 +1,80 @@
+html,body {
+  padding: 50px;
+  font: 18px arial, sans-serif;
+  background-color: black;
+  color: lightgrey;
+}
+
+a {
+  color: teal;
+}
+
+.button {
+  font: 14px arial, sans-serif;
+  background: transparent;
+  padding: 15px 20px;
+  border-radius: 5px;
+  color: lightgrey;
+  text-decoration: none;
+  height: 45px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  transition: all linear .2s;
+  margin: 5px;
+}
+
+.button:hover {
+  background: #285d85;
+  color: #eeeeee;
+}
+
+.button:active {
+  background: #1b435e;
+}
+
+.textContainer {
+  text-align: center;
+  background-color: #222222;
+  padding: 5px;
+  margin: 5px auto;
+  border-radius: 10px;
+  max-width: 800px;
+  height: 60px;
+}
+
+.insultContainer {
+  text-align: center;
+  background-color: #151515;
+  padding: 5px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 5px auto;
+}
+
+.right {
+  text-align: right;
+}
+
+/* The starting CSS styles for the enter animation */
+.fade.ng-enter {
+  transition: .5s ease-in all;
+  margin-top: 0;
+  opacity: 0;
+}
+
+/* The finishing CSS styles for the enter animation */
+.fade.ng-enter.ng-enter-active {
+  opacity: 1;
+  margin-top: 18px;
+}
+/* The starting CSS styles for the enter animation */
+.fade.ng-leave {
+  transition:.5s ease-in all;
+  opacity: 1;
+}
+
+/* The finishing CSS styles for the enter animation */
+.fade.ng-leave.ng-leave-active {
+  margin-top: 36px;
+  opacity: 0;
+}
