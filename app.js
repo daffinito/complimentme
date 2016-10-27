@@ -13,6 +13,8 @@ var templates = require('./routes/templates');
 
 var app = express();
 
+app.locals.newrelic = newrelic;
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
