@@ -28,3 +28,4 @@ NEW_RELIC_LICENSE_KEY="key"
 NEW_RELIC_NO_CONFIG_FILE="true"
 ```
 
+The RestAPI endpoint is localhost:3000/api/insult
