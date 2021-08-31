@@ -1,7 +1,5 @@
 # compliment me api
 
-https://complimentmeapi.herokuapp.com/
-
 This is just a simple node api that returns a random compliment. There is a front end angular app to display the compliment. 
 
 Uses watchify, here is how to install it:
