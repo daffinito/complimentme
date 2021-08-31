@@ -1,8 +1,8 @@
-# Insult me api
+# compliment me api
 
-https://insultmeapi.herokuapp.com/
+https://complimentmeapi.herokuapp.com/
 
-This is just a simple node api that returns a random insult. There is a front end angular app to display the insult. 
+This is just a simple node api that returns a random compliment. There is a front end angular app to display the compliment. 
 
 Uses watchify, here is how to install it:
 
@@ -28,4 +28,4 @@ NEW_RELIC_LICENSE_KEY="key"
 NEW_RELIC_NO_CONFIG_FILE="true"
 ```
 
-The RestAPI endpoint is localhost:3000/api/insult
+The RestAPI endpoint is localhost:3000/api/compliment

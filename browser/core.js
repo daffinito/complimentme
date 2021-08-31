@@ -1,7 +1,7 @@
 require('angular')
 require('angular-animate')
-insultme = angular.module('insultme', [ 'ngAnimate' ])
+complimentme = angular.module('complimentme', [ 'ngAnimate' ])
 
 require('./controllers/mainController')
 
-require('./directives/insult')
+require('./directives/compliment')

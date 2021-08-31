@@ -1,19 +1,19 @@
 var express = require('express');
 var router = express.Router();
-var loadinsults = require('../lib/loadinsults');
-var insults;
+var loadcompliments = require('../lib/loadcompliments');
+var compliments;
 
-loadinsults.load(function(err,body) {
+loadcompliments.load(function(err,body) {
    if (!err)
-      insults = body.insults;
+      compliments = body.compliments;
    else
-      console.log("Error loading insults.");
+      console.log("Error loading compliments.");
 });
 
 /* GET home page. */
-router.get('/insult', function(req, res, next) {
-   var random = Math.floor((Math.random() * insults.length));
-   res.json(insults[random]);
+router.get('/compliment', function(req, res, next) {
+   var random = Math.floor((Math.random() * compliments.length));
+   res.json(compliments[random]);
 });
 
 module.exports = router;
